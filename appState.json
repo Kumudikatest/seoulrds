@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8ac3140a-08b4-4f22-af5b-d8c78622dfdc": {
+        "id": "8ac3140a-08b4-4f22-af5b-d8c78622dfdc",
+        "parent": null,
+        "name": "seoulrds",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a765e9e7-2b2d-44eb-9e74-0c80abd7fbbc"
+        ],
+        "isRemovable": false,
+        "filePath": "seoulrds"
+      },
+      "a765e9e7-2b2d-44eb-9e74-0c80abd7fbbc": {
+        "id": "a765e9e7-2b2d-44eb-9e74-0c80abd7fbbc",
+        "parent": "8ac3140a-08b4-4f22-af5b-d8c78622dfdc",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "seoulrds/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "8ac3140a-08b4-4f22-af5b-d8c78622dfdc",
+    "openFiles": [
+      "a765e9e7-2b2d-44eb-9e74-0c80abd7fbbc"
+    ],
+    "currentFileId": "a765e9e7-2b2d-44eb-9e74-0c80abd7fbbc",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "seoulrds",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-northeast-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1562301486895
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "seoulrds",
+      "url": "https://github.com/Kumudikatest/seoulrds"
+    }
+  }
+}
